@@ -1,26 +1,49 @@
 body {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: rgb(221, 147, 10);
-    text-align: center;
-
-  }
-.test{
-    height: 300px;
-    width: 300px;
-    background: #0495d3;
-    margin: auto;
-  }
-.jayed{
-    width: 80%;
-    background: #500f0f;
-    margin: auto;
-    border: 3px solid green;
-    padding: 10px;
+  background-color: rgb(255, 255, 255);
 }
-.button{
-    margin: 0;
-    position: absolute;
+h1 {
+  color: blue;
+}
+h2{
+  color: rgb(226, 229, 11);
+}
+p {
+  color: red;
+  border: 2px solid rgb(200, 170, 155);
+}
+/* a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+} */
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
 }

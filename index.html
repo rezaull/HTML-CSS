@@ -4,9 +4,81 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Learnig HTML</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- <style>
+            body {background-color: blueviolet;}
+            h2 {color: blue;}
+            p {color: aqua;}
+        </style> -->
     </head>
     <body>
         <h1>Bismillahir Rahmanir Rahim</h1>
+
+        <h1>Now Start Links</h1>
+        <p>This is test paragraph for <a href="#" target="_self">link</a>
+            test</p>
+        <p>This is test paragraph for <a href="#" target="_blank">link</a>
+            test</p>
+        <p>This is test paragraph for <a href="#" target="_parent">link</a>
+            test</p>
+        <p>This is test paragraph for <a href="#" target="_top">link</a>
+            test</p>
+        <p>_self - Default. Opens the document in the same window/tab as it was
+            clicked <br>
+            _blank - Opens the document in a new window or tab <br>
+            _parent - Opens the document in the parent frame <br>
+            _top - Opens the document in the full body of the window</p>
+
+        <h2>Absolute URLs vs. Relative URLs <br>
+            <a href="https://www.google.com/">Google-Absolute URL</a><br>
+            <a href="images/jayed.png" title="Open Jayed Photo">Jayed-Relative
+                URL</a>
+        </h2>
+        <button onclick="document.location='images/jayed.png'">Open
+            Photo</button>
+        <button onclick="document.location='https://www.google.com'">Open
+            Google-</button>
+        <a href="mailto:reza.me9@gmail.com">Send Me Email</a>
+
+        <p><a href="#C4">Jump to Chapter 4</a></p>
+        <p><a href="#C10">Jump to Chapter 10</a></p>
+
+        <h2>Chapter 1</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 2</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 3</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2 id="C4">Chapter 4</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 5</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 6</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 7</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 8</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 9</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2 id="C10">Chapter 10</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h1>Now Start CSS</h1>
+        <h2 style="color: rgb(221, 255, 0);">Inline CSS</h2>
+        <!-- inside the elements -->
+        <h2>Internal CSS</h2> <!-- comes from head section -->
+        <h2>External CSS</h2> <!-- comes from external style file-->
+
         <h1>Heading1</h1>
         <h2>Heading2</h2>
         <h3>Heading3</h3>
@@ -60,6 +132,5 @@
         <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
         <h1 style="border: 2px solid darkmagenta;">Text Border</h1>
 
-        
     </body>
 </html>
