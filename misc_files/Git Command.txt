@@ -1,0 +1,28 @@
+…or create a new repository on the command line
+--------------------------------------------------
+echo "# html-css" >> README.md
+git init (to create repo (working project folder))
+git add README.md (file name) OR - A / . (all files)
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rezaull/html-css.git
+git push -u origin main
+
+==================================================================
+
+…or push an existing repository from the command line
+----------------------------------------------------------------
+git remote add origin https://github.com/rezaull/html-css.git
+git branch -M main
+git push -u origin main
+---
+OR - it works!
+---
+git add --all / git add -A / git add .
+git   commit -m "message/comment"
+git push
+
+=============================
+Pull Request
+----------------
+git pull
