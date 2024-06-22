@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: rgb(221, 147, 10);
+    text-align: center;
+
+  }
+.test{
+    height: 300px;
+    width: 300px;
+    background: #0495d3;
+    margin: auto;
+  }
+.jayed{
+    width: 80%;
+    background: #500f0f;
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+}
+.button{
+    margin: 0;
+    position: absolute;
+}
