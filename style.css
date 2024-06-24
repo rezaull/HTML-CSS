@@ -8,9 +8,22 @@ h2{
   color: rgb(226, 229, 11);
 }
 p {
-  color: red;
-  border: 2px solid rgb(200, 170, 155);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+
 }
+
+div.container{
+  display: flex;
+  /* width: 100%;
+  overflow: auto; */
+}
+div.container div{
+  width: 30%;
+  /* float: left; */
+  /* display: inline-block; */
+}
+
 /* a:link {
   color: green;
   background-color: transparent;
