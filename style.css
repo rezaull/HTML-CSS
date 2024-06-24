@@ -13,6 +13,7 @@ p {
 
 }
 
+
 div.container{
   display: flex;
   /* width: 100%;
@@ -58,5 +59,24 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  background-color: red;
+  background-color: rgb(101, 133, 219);
+}
+
+div {
+  display: inline-block;
+  /* display: flex; */
+}
+
+div.containerr{
+  width: 30%;
+  background-color: #f44336;
+
+}
+.classs{
+  background-color: blueviolet;
+  width: 30%;
+}
+#idd{
+  background-color: rgb(228, 145, 21);
+  width: 30%;
 }
