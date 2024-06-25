@@ -1,82 +1,48 @@
-body {
-  background-color: rgb(255, 255, 255);
-}
-h1 {
-  color: blue;
-}
-h2{
-  color: rgb(226, 229, 11);
-}
-p {
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-
+* {
+  box-sizing: border-box;
 }
 
-
-div.container{
-  display: flex;
-  /* width: 100%;
-  overflow: auto; */
-}
-div.container div{
-  width: 30%;
-  /* float: left; */
-  /* display: inline-block; */
-}
-
-/* a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-} */
-
-a:link, a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 15px 25px;
+.menu {
+  float: left;
+  width: 20%;
   text-align: center;
+  
+}
+
+.menu a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
   text-decoration: none;
-  display: inline-block;
 }
 
-a:hover, a:active {
-  background-color: rgb(101, 133, 219);
-}
-
-div {
-  display: inline-block;
-  /* display: flex; */
-}
-
-div.containerr{
-  width: 30%;
-  background-color: #f44336;
-
-}
-.classs{
+.menu a:hover{
+  color: rgb(243, 227, 4);
   background-color: blueviolet;
-  width: 30%;
+ 
 }
-#idd{
-  background-color: rgb(228, 145, 21);
-  width: 30%;
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
 }
